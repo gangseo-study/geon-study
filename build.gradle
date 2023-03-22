@@ -33,8 +33,6 @@ dependencies {
     testCompileOnly 'org.projectlombok:lombok'
     testAnnotationProcessor 'org.projectlombok:lombok'
 
-    /* firebase */
-    implementation 'com.google.firebase:firebase-firestore'
 }
 
 tasks.named('test') {
